@@ -19,9 +19,8 @@ Aside from this repo we will also be sharing files using [Google Drive](https://
 
 Section to sign off and make sure everyone can commit to main.
 
-Done:
-Matthew Kim
-
-Yacob Mesfun
+Done:<br>
+Matthew Kim<br>
+Yacob Mesfun<br>
 
 </details>
