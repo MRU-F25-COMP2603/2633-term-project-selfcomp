@@ -4,7 +4,7 @@ SelfComp is a website meant to house course outlines for, and information/advice
 
 ## Contributors
 <!-- Can add link to all your guys' githubs as well is u want to add -->
-- Ujjwal Bhandari
+- [Ujjwal Bhandari](https://github.com/Ujjwalb101)
 - [Matthew Kim](https://github.com/EassunKim)
 - [Yacob Mesfun](https://github.com/Ymesfun)
 - Lorenzo Primiterra
@@ -22,5 +22,6 @@ Section to sign off and make sure everyone can commit to main.
 Done:<br>
 Matthew Kim<br>
 Yacob Mesfun<br>
+Ujjwal Bhandari<br>
 
 </details>
