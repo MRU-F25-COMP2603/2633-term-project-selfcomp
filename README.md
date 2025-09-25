@@ -6,8 +6,8 @@ SelfComp is a website meant to house course outlines for, and information/advice
 <!-- Can add link to all your guys' githubs as well is u want to add -->
 - [Ujjwal Bhandari](https://github.com/Ujjwalb101)
 - [Matthew Kim](https://github.com/EassunKim)
-- [Yacob Mesfun](https://github.com/Ymesfun)
-- Lorenzo Primiterra
+- [Yacob Mesfun](https://github.com/Ymesfun) 
+- [Lorenzo Primiterra]
 
 ## Other Rescources
 
