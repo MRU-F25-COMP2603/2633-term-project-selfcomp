@@ -1,0 +1,67 @@
+
+body, h1, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+header {
+  padding: 16px;
+  font-size: 20px;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;                 
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+nav ul li {
+  flex: 1;           
+  text-align: center;
+}
+
+nav ul li:first-child { text-align: left; }
+nav ul li:last-child  { text-align: right; }
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+
+.hero {
+  height: 500px;                           
+  background-image: url("image-to-add.jpg");
+  background-size: cover;                  
+  background-position: center;             
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.hero-content {
+  margin-top: 180px;   
+}
+
+.hero-content button {
+  display: block;
+  margin: 12px auto;
+  padding: 12px 20px;
+  border: 1px solid #bbb;
+  background-color: #eee;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero-content button:hover {
+  background-color: #ddd;
+}
