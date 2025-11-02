@@ -20,5 +20,5 @@ count++; // account for first course not having a --- line before it
 
 
 test('Total number of courses parsed correctly', () => {
-  expect(courseCount).toBe(count)// Replace 100 with the expected number of courses
+  expect(courseCount).toBe(count)
 });
