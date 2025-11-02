@@ -218,3 +218,10 @@ with open("txt.txt", "w") as f:
             f.write(line + "\n")
         f.write("\n" + "-" * 40 + "\n")
 
+#Basic scrape function to test if everything is in order
+def scrape_function(url: str):
+    response = requests.get(url)
+    response.raise_for_status()
+    soup = BeautifulSoup(response.text, "html.parser")
+    titles = [t.get_text(strip=True) for t in soup.select("h2.title")]
+    return titles
