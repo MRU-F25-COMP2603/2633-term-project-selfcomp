@@ -8,6 +8,7 @@ const courseList = //call parser
 async function updateDB() {
     try {
         await mongoose.connect(MONGO_URI, {newUrlParser: true, useUnifiedTopology: true});
+        console.log("Connected to MongoDB");
 
         for (const courseData of courseList) {
             //first check if a course already exists
