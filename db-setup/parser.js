@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const filePath = '../Webscraper 1.0/txt.txt';
-const rawText = fs.readFileSync(path.resolve(__dirname, filePath), 'utf-8');
+const rawText = fs.readFileSync(path.resolve(__dirname, filePath));
 const blocks = rawText.trim().split('\n\n');
 
 const courses = blocks.map(block => {
