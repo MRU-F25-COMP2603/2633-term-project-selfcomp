@@ -1,5 +1,5 @@
 #https://qa-nora.medium.com/unit-testing-with-jest-and-integration-with-github-actions-bc241b31d257
-
+#https://docs.github.com/en/actions/tutorials/build-and-test-code/python
 name: Jest Testing Workflow
 
 on:
@@ -28,5 +28,26 @@ jobs:
 
             - name: Run Jest tests
               run: npm test
+    
+    test-py:
+        runs on: ubuntu-latest
+
+        steps:
+            - actions/checkout@v5
+
+            - name: Set up python
+              uses: actions/setup-python@v5
+              with:
+                python-version: '3.11'
+
+            - name: Install dependencies
+              run:  |
+                python -m pip install --upgrade pip
+                pip install -r requirements.txt
+
+            - name: Test with pytest
+              run: |
+               pip install pytest
+               pytest -v
         
         
