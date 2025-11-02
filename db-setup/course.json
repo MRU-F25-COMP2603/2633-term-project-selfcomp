@@ -1,0 +1,10 @@
+[
+  {
+    "code": "Introduction to Computer Science II",
+    "title": "COMP 1633",
+    "desciption": "Introduction to object-oriented analysis and design, programming using an object-oriented language, and implementation of linked data structures. Issues of modularity, software design, and programming style will be emphasized.",
+    "prerequisites": "Prerequisite(s): COMP 1631 with a minimum grade of C- or higher.",
+    "hours": "Lecture Hour(s): 3",
+    "comments": []
+  }
+]
