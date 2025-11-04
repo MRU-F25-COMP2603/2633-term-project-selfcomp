@@ -21,6 +21,7 @@ nav ul {
   justify-content: space-between;
   padding: 12px 16px;
   border-top: 1px solid #ccc;
+  background: 0x0000ff;
   border-bottom: 1px solid #ccc;
 }
 
@@ -41,7 +42,7 @@ nav a {
 
 .hero {
   height: 500px;                           
-  background-image: url("image-to-add.jpg");
+  background-image: url("background.PNG");
   background-size: cover;                  
   background-position: center;             
   background-repeat: no-repeat;
@@ -56,8 +57,9 @@ nav a {
   display: block;
   margin: 12px auto;
   padding: 12px 20px;
+  color: white;
   border: 1px solid #bbb;
-  background-color: #eee;
+  background-color: #0000ff;
   font-size: 16px;
   cursor: pointer;
 }
