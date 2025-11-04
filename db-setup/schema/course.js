@@ -9,7 +9,7 @@ const commentSchema = new mongoose.Schema({
 const courseSchema = new mongoose.Schema({
     code: String, //Comp2633
     title: String, //software engineering
-    desciption: String,
+    description: String,
     comments: [commentSchema]
 });
 

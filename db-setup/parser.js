@@ -19,7 +19,7 @@ const courses = blocks.map(block => {
   return {
     code: code.trim(),
     title: title.trim(),
-    desciption: description.trim(), // matches your schema spelling
+    description: description.trim(),
     prerequisites: prereqLine.trim(),
     hours: hoursLine.trim(),
     comments: []
