@@ -13,13 +13,10 @@ const courses = blocks.map(block => {
   const prereqLine = lines[2];
   const hoursLine = lines[3];
 
-  const prerequisites = prereqLine.replace('Prerequisite(s):', '').trim();
-  const hours = hoursLine.replace('Hour(s):', '').trim();
-
   return {
     code: code.trim(),
     title: title.trim(),
-    desciption: description.trim(), // matches your schema spelling
+    description: description.trim(),
     prerequisites: prereqLine.trim(),
     hours: hoursLine.trim(),
     comments: []
