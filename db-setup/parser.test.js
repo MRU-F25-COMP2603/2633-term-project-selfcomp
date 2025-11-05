@@ -1,13 +1,16 @@
 const fs = require('fs');
+const scraperOutput = './Webscraper 1.0/txt.txt';
+const parserOutput = './db-setup/courses.json';
+
 
 // Check courses in course.json
-const rawText = fs.readFileSync('./db-setup/course.json', 'utf-8');
+const rawText = fs.readFileSync(parserOutput, 'utf-8');
 const courses = JSON.parse(rawText);
 
 const courseCount = courses.length;
 
 // Check number of entries in txt.txt
-const txt = fs.readFileSync('./Webscraper 1.0/txt.txt', 'utf-8');
+const txt = fs.readFileSync(scraperOutput, 'utf-8');
 const lines = txt.split('\n');
 let count = 0;
 
@@ -16,7 +19,6 @@ for (const line of lines) {
     count++;
   }
 }
-count++; // account for first course not having a --- line before it
 
 
 test('Total number of courses parsed correctly', () => {
