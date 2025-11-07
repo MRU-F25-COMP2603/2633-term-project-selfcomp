@@ -1,7 +1,7 @@
 [
   {
-    "code": "Introduction to Computer Science II",
-    "title": "COMP 1633",
+    "code": "COMP 1633",
+    "title": "Introduction to Computer Science II",
     "desciption": "Introduction to object-oriented analysis and design, programming using an object-oriented language, and implementation of linked data structures. Issues of modularity, software design, and programming style will be emphasized.",
     "prerequisites": "Prerequisite(s): COMP 1631 with a minimum grade of C- or higher.",
     "Hours": "Lecture Hour(s): 3",
@@ -16,152 +16,152 @@
     "comments": []
   },
   {
-    "code": "Introduction to Computability",
-    "title": "COMP 2613",
+    "code": "COMP 2613",
+    "title": "Introduction to Computability",
     "desciption": "Provides insight into the theoretical foundations of computing science. Topics include abstract machines (finite automata, push down automata, Turing machines), formal language hierarchy, and applications.",
     "prerequisites": "Prerequisite(s): MATH 1271 and COMP 1633 with minimum grades of C- or higher.",
     "Hours": "Lecture Hour(s): 3",
     "comments": []
   },
   {
-    "code": "Information Structures I",
-    "title": "COMP 2631",
+    "code": "COMP 2631",
+    "title": "Information Structures I",
     "desciption": "Study of data structures including trees, graphs, and hash tables. Emphasis on searching, sorting, and algorithm efficiency.",
     "prerequisites": "Prerequisite(s): COMP 1633 with a minimum grade of C- or higher.",
     "Hours": "Lecture Hour(s): 3",
     "comments": []
   },
   {
-    "code": "Foundations of Software Engineering",
-    "title": "COMP 2633",
+    "code": "COMP 2633",
+    "title": "Foundations of Software Engineering",
     "desciption": "Introduction to software development problems and processes. Covers software life cycles, process improvement, requirements analysis, design, implementation, integration, and testing.",
     "prerequisites": "Prerequisite(s): COMP 2631 with a minimum grade of C- or higher.",
     "Hours": "Lecture Hour(s): 3",
     "comments": []
   },
   {
-    "code": "Computing Machinery I",
-    "title": "COMP 2655",
+    "code": "COMP 2655",
+    "title": "Computing Machinery I",
     "desciption": "Detailed study of CPU architecture and internal data representations. Introduction to assembly language programming and implementation of control structures and data structures.",
     "prerequisites": "Prerequisite(s): COMP 1633 with a minimum grade of C- or higher.",
     "Hours": "Lecture Hour(s): 3",
     "comments": []
   },
   {
-    "code": "Computing Machinery II",
-    "title": "COMP 2659",
+    "code": "COMP 2659",
+    "title": "Computing Machinery II",
     "desciption": "Covers CPU organization, memory, I/O interfaces, devices, and busses. Includes digital logic design, hardware interfacing, asynchronous I/O, and interrupt processing.",
     "prerequisites": "Prerequisite(s): PHIL 1179 and COMP 2655 with minimum grades of C- or higher.",
     "Hours": "Lecture Hour(s): 3",
     "comments": []
   },
   {
-    "code": "Information Technology and Society",
-    "title": "COMP 3309",
+    "code": "COMP 3309",
+    "title": "Information Technology and Society",
     "desciption": "Explores the implications of information technology for society including historical, legal, ethical, economic, and philosophical perspectives.",
     "prerequisites": "Prerequisite(s): GNED 1301, GNED 1303, or GNED 1304.",
     "Hours": "Lecture Hour(s): 3",
     "comments": []
   },
   {
-    "code": "Algorithms and Complexity",
-    "title": "COMP 3614",
+    "code": "COMP 3614",
+    "title": "Algorithms and Complexity",
     "desciption": "Design and analysis of algorithms. Covers greedy algorithms, divide-and-conquer, recursive backtracking, dynamic programming, heuristics, and NP-completeness.",
     "prerequisites": "Prerequisite(s): COMP 2631, COMP 2613 and MATH 1200 with minimum grades of C-.",
     "Hours": "Lecture Hour(s): 3",
     "comments": []
   },
   {
-    "code": "Programming Paradigms",
-    "title": "COMP 3649",
+    "code": "COMP 3649",
+    "title": "Programming Paradigms",
     "desciption": "Examines major programming paradigms with emphasis on declarative paradigms like functional and logic programming. Topics include data types, control expressions, lazy evaluation, and information hiding.",
     "prerequisites": "Prerequisite(s): COMP 2613, COMP 2631 and PHIL 1179 with minimum grades of C- or higher.",
     "Hours": "Lecture Hour(s): 3",
     "comments": []
   },
   {
-    "code": "Operating Systems",
-    "title": "COMP 3659",
+    "code": "COMP 3659",
+    "title": "Operating Systems",
     "desciption": "Introduces principles and techniques for designing and implementing operating systems. Topics include performance, concurrency, file and process management, security, memory, and processor resources.",
     "prerequisites": "Prerequisite(s): COMP 2631 and COMP 2659 with minimum grades of C-.",
     "Hours": "Lecture Hour(s): 3",
     "comments": []
   },
   {
-    "code": "Calculus for Scientists I",
-    "title": "MATH 1200",
+    "code": "MATH 1200",
+    "title": "Calculus for Scientists I",
     "desciption": "Introduction to calculus with applications in science, business, and economics. Covers limits, derivatives, integrals, and techniques of integration.",
     "prerequisites": "Prerequisite(s): 60% or higher in Mathematics 30-1 or MATH 0130, or C- or higher in MATH 1283, MATH 1285, or equivalent.",
     "Hours": "Lecture Hour(s): 4",
     "comments": []
   },
   {
-    "code": "Linear Algebra for Scientists and Engineers",
-    "title": "MATH 1203",
+    "code": "MATH 1203",
+    "title": "Linear Algebra for Scientists and Engineers",
     "desciption": "Introduction to linear algebra for science students. Topics include vector and matrix algebra, systems of linear equations, determinants, linear transformations, polar coordinates, complex numbers, and applications using eigenvalues and eigenvectors.",
     "prerequisites": "Prerequisite(s): Mathematics 30-1 with a 60% or higher.",
     "Hours": "Lecture Hour(s): 3",
     "comments": []
   },
   {
-    "code": "Discrete Mathematics",
-    "title": "MATH 1271",
+    "code": "MATH 1271",
+    "title": "Discrete Mathematics",
     "desciption": "Introduction to symbolic logic, techniques of proof, sets, equivalence relations, mathematical induction, recursion, counting principles, graphs, and trees.",
     "prerequisites": "Prerequisite(s): MATH 1203 with a grade of C- or higher.",
     "Hours": "Lecture Hour(s): 3",
     "comments": []
   },
   {
-    "code": "Concepts of Mathematical Statistics",
-    "title": "MATH 2234",
+    "code": "MATH 2234",
+    "title": "Concepts of Mathematical Statistics",
     "desciption": "Covers descriptive statistics, probability theory, and inferential statistics. Topics include population means and proportions, regression, correlation, chi-square tests, and ANOVA. Labs use statistical software to apply concepts to real data.",
     "prerequisites": "Prerequisite(s): MATH 1200 with a grade of C- or higher.",
     "Hours": "Lecture Hour(s): 4",
     "comments": []
   },
   {
-    "code": "Introduction to Symbolic Logic",
-    "title": "PHIL 1179",
+    "code": "PHIL 1179",
+    "title": "Introduction to Symbolic Logic",
     "desciption": "Introduces sentential and first-order logic from deductive and semantic perspectives. Includes discussion of elementary metatheorems.",
     "prerequisites": "Prerequisite(s): None listed.",
     "Hours": "Lecture Hour(s): 3",
     "comments": []
   },
   {
-    "code": "Network Infrastructure and Security",
-    "title": "COMP 3533",
+    "code": "COMP 3533",
+    "title": "Network Infrastructure and Security",
     "desciption": "This course covers the principles and practice of computer networking, focusing on the high-level protocol-oriented aspects of computer networks. Networking as it relates to database and file service applications is examined along with Internet structure, protocols and routing. Various aspects of security in networked information systems are studied.",
     "prerequisites": "Prerequisite(s): COMP 3532 with a minimum grade of C-.",
     "Hours": "Lecture Hour(s): 3",
     "comments": []
   },
   {
-    "code": "Human-Computer Interaction",
-    "title": "COMP 3553",
+    "code": "COMP 3553",
+    "title": "Human-Computer Interaction",
     "desciption": "This course covers the fundamental theory and practice in the design and evaluation of human-computer interfaces. The impacts of computer-based information systems on individuals and organizations are examined along with the rationale for a user-centric approach in all IT applications and systems.",
     "prerequisites": "Prerequisite(s): COMP 2511 and COMP 2503 with a minimum grade of C-.",
     "Hours": "Lecture Hour(s): 3",
     "comments": []
   },
   {
-    "code": "Web Development for Computer Science",
-    "title": "COMP 3612",
+    "code": "COMP 3612",
+    "title": "Web Development for Computer Science",
     "desciption": "This course provides an overview of web development suitable for computer science majors. It covers the broad spectrum of technologies used within this environment. Design, tools, and development processes unique to web development will also be covered.",
     "prerequisites": "Prerequisite(s): COMP 2633 with a minimum grade of C-.",
     "Hours": "Lecture Hour(s): 3",
     "comments": []
   },
   {
-    "code": "Artificial Intelligence",
-    "title": "COMP 3625",
+    "code": "COMP 3625",
+    "title": "Artificial Intelligence",
     "desciption": "This course provides an introduction to artificial intelligence concepts and techniques. Topics include the characteristics of problems for which intelligent systems can be built, the agent paradigm, search strategies, knowledge representation, logical reasoning, reasoning under uncertainty, and machine learning. Multi-agent systems, robotics, computer vision, and/or natural language processing will be introduced, as time permits.",
     "prerequisites": "Prerequisite(s): A minimum grade of �C-� in all of COMP 2631, COMP 2613 and MATH 2234.",
     "Hours": "Lecture Hour(s): 3",
     "comments": []
   },
   {
-    "code": "Evolutionary Computation",
-    "title": "COMP 3626",
+    "code": "COMP 3626",
+    "title": "Evolutionary Computation",
     "desciption": "This course provides a broad understanding of the issues in developing and analyzing evolutionary and swarm computation systems. Topics that may be covered are genetic algorithms, evolution strategies, evolution programming, genetic programming, classifier systems, swarm optimization, constraint handling, dynamic environments, co-evolutionary systems, cellular automata, and neural networks.",
     "prerequisites": "Prerequisite(s): COMP 2631 with a minimum grade of C-.",
     "Hours": "Lecture Hour(s): 3",

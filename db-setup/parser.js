@@ -1,6 +1,16 @@
+/**
+ * File meant to take the output from the webscraper and parse it into a JSON
+ * 
+ * Output:
+ *   - A JSON file named `courses.json` containing an array of course objects.
+ *   - Console logs indicating progress and number of courses processed.
+ *
+ * Usage:
+ *   This script is run as part of upDateDB.js.
+ */
+
 const fs = require('fs');
 const path = require('path');
-
 const filePath = '../Webscraper 1.0/txt.txt';
 const rawText = fs.readFileSync(path.resolve(__dirname, filePath), 'utf-8');
 const outputPath = './courses.json';
@@ -26,7 +36,7 @@ const courses = blocks.map(block => {
     prereqLine = "no prerequisite";
     hoursLine = lines[2];
   } else {
-    [title, code] = lines[0].split(' - ');
+    [code, title] = lines[0].split(' - ');
     description = lines[1];
     prereqLine = lines[2];
     hoursLine = lines[3];
