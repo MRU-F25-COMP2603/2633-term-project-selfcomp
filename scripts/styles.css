@@ -83,8 +83,7 @@ nav a {
   margin-top: 180px;   
 }
 /* styling for buttons*/
-.hero-content button,
-.hero-content a.btn {
+.btn {
   /* Makes link act like button*/
   display: inline-block;
   /* Verical spacing and center*/
@@ -110,7 +109,7 @@ nav a {
   min-width: 200px;
 }
 /* changes color when hovering above */
-.hero-content a.btn:hover {
+.btn:hover {
   /* light gray when hovering*/
   background-color: #ddd;
 }
@@ -166,4 +165,26 @@ nav a {
   flex: 1;
   /* add space inside content area against edges*/
   padding: 16px;
+}
+
+/* Course detals */
+
+/* Vertical spacing around course title*/
+.course-detail h2 {
+  margin: 8px 0 16px;
+}
+
+/* Spacing between description ad prerequisites*/
+.course-section {
+  margin-bottom: 18px;
+}
+
+/*Spacing below the description and prerequisites*/
+.course-section h3 {
+  margin: 0 0 6px;
+}
+
+/*spacing above course descriptions*/
+.course-actions {
+  margin-top: 16px;
 }
