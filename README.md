@@ -32,8 +32,10 @@ pytest -v
 ## Building the System
 Building the system can be done by running ``` python builder.py ``` from a terminal in the root directory
 
+<details>
 <summary>Steps performed in a build</summary>
 
+- install dependencies
 - run webscraper
 - parse scraper output and updateDB based on that
 - site can then be hosted/deployed using flask
@@ -41,8 +43,16 @@ Building the system can be done by running ``` python builder.py ``` from a term
 NOTE: DB update does not currently update all fields for the beta release. The builder still functions but it does so by clearing the DB and updating from the new parser output
 </details>
 
+## Running SelfCOMP
+SelfCOMP can be locally hosted through flask. After running the builder (desribed in "Building the System") you can run ``` flask run ``` in a terminal from the root folder and following any on screen prompts
 
+## Operatoinal Use Cases and Features
+As of the beta release our use case 1a from the living document is functional. This has an actor entering the course catalogue and viewing the details for all courses from a list actively updated by the DB.
 
+Our working Features:
+- Webscraper scraping from MRU site
+- Updating DB based on output from scraper
+- Viewable, updated course page
 
 <details>
 <Summary> Commit Check </summary>
