@@ -14,7 +14,7 @@ Steps taken:
 import subprocess
 
 #runs a shell command and handles errors
-def run_command(command): #reccoommended with help from microsoft copilot
+def run_command(command): #written with help from microsoft copilot
     try:
         subprocess.run(command, check=True, shell=True)
         print(f"Successfully executed: {command}")
@@ -22,9 +22,17 @@ def run_command(command): #reccoommended with help from microsoft copilot
         print(f"Error executing {command}: {e}")
 
 def main():
-    run_command("python Webscraper/webscraper.py") #run the webscraper first
-    run_command("node db-setup/parser.js") #setup the database first
-    run_command("node db-setup/updateDB.js") #update the database last
+    # first install dependencies
+    run_command("npm install")
+    run_command("pip install -r requirements.txt")
+
+    #FOR THE BETA RELEASE: the updater does not clear duplicates, so please clear the database first
+    run_command()"node db-setup/clearDB.js")
+
+    #next run the scraper, parser and updater to setup the database
+    run_command("python webscraper/webscraper.py")
+    run_command("node db-setup/parser.js")
+    run_command("node db-setup/updateDB.js")
 
 if __name__ == "__main__":
     main()
