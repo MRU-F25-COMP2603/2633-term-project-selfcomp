@@ -64,8 +64,9 @@ header {
 
 /* Banner image*/
 .hero {
-  /* Height of hero section*/
-  height: 500px;     
+  min-height: calc(100vh - 112px); /* 100vh minus header+navbar height, currently 100vh - 112 px */
+  /*fill the width of the screen with background.png*/
+  width: 100%; 
   /* Set image background*/                      
   background-image: url("background.PNG");
   /* Image fills section*/
