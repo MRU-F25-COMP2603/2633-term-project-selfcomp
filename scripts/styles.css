@@ -101,6 +101,17 @@ header {
   /* light gray when hovering*/
   background-color: #ddd;
 }
+/* Specific style for Comments and Files buttons */
+.course-btn {
+  background-color: #ddd;   /* light grey */
+  color: black;             /* black text */
+  border: 1px solid black;   /* Black border*/
+}
+
+/* Optional: hover effect for these buttons */
+.course-btn:hover {
+  background-color: #ccc;   /* slightly darker grey */
+}
 
 /* Course page 2 column layout */
 .layout{
