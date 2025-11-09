@@ -24,7 +24,7 @@ header {
 }
 
 /* Navigation bar*/
-nav ul {
+.top-nav ul {
   /* remove default bullets */
   list-style: none;
   /* Nav items in a row */
@@ -41,7 +41,7 @@ nav ul {
   border-bottom: 1px solid #ccc;
 }
 
-nav ul li {
+.top-nav ul li {
   /* make each mav item take equal space */
   flex: 1;           
   /* Center link text*/
@@ -49,11 +49,11 @@ nav ul li {
 }
 
 /* align home to the left and courses to the right */
-nav ul li:first-child { text-align: left; }
-nav ul li:last-child  { text-align: right; }
+.top-nav ul li:first-child { text-align: left; }
+.top-nav ul li:last-child  { text-align: right; }
 
 /* Link styling inside navigation*/
-nav a {
+.top-nav a {
   /* removes undeerline*/
   text-decoration: none;
   /* black link text*/
@@ -80,14 +80,17 @@ nav a {
 
 /* Centers hero content vertically with margin at top*/
 .hero-content {
-  margin-top: 180px;   
+  margin-top: 180px; /* keeps vertical spacing */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center buttons horizontally */
 }
 /* styling for buttons*/
 .btn {
   /* Makes link act like button*/
-  display: inline-block;
+  display: flex;
   /* Verical spacing and center*/
-  margin: 12px auto;
+  margin: 12px 0;
   /* button size */
   padding: 12px 24px;
   /* button text color*/
