@@ -11,7 +11,7 @@ def test_homepage_structure():
     """
 
     #Point to file
-    path = Path("scripts/homepage.html")  
+    path = Path("templates/homepage.html")  
     assert path.exists(), "homepage.html file not found in scripts/"
 
     #parse HTML
