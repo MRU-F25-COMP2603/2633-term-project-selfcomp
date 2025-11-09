@@ -8,8 +8,8 @@
     "comments": []
   },
   {
-    "code": "Introduction to Problem Solving and Programming",
-    "title": "COMP 1701",
+    "code": "COMP 1701",
+    "title": "Introduction to Problem Solving and Programming",
     "desciption": "Introduction to object-oriented analysis and design, programming using an object-oriented language, and implementation of linked data structures. Issues of modularity, software design, and programming style will be emphasized.Prerequisite(s): COMP 1631 with a minimum grade of C- or higher.",
     "prerequisites": "no prerequisite",
     "Hours": "Lecture Hour(s): 3",

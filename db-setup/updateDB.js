@@ -26,11 +26,12 @@ async function updateDB() {
         console.log("Connected to MongoDB");
 
         let inserted = 0;
-        let cur;
 
-        for (cur of courseList) {
+        for (const cur of courseList) {
+            // Normalize course code (remove spaces)
+            const normalizedCode = cur.code.replace(/\s+/g, '');
             //first check if a course already exists
-            const existingCourse = await Course.findOne({code: cur.code});
+            const existingCourse = await Course.findOne({code: cur.normalizedCode});
 
             if (existingCourse) {
                 console.log(`Course ${cur.code} already found in db, skipping to next`);
@@ -40,11 +41,11 @@ async function updateDB() {
             //create new course
             const curCourse = new Course({
                 ...cur,
+                code: normalizedCode,
                 comments: []
             });
             await curCourse.save();
             inserted++;
-
         }
         
         console.log(`DB update complete. ${inserted} new courses added.`);

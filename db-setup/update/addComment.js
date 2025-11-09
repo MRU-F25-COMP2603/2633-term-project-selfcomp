@@ -25,5 +25,5 @@ async function addComment(courseCode, author, text) {
     }   
 
 }
-
+addComment('COMP1701', 'Example User', 'This is a sample comment.');
 module.exports = { addComment };

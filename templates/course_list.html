@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SelfCOMP > Courses</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <header>
+    <h1>SelfCOMP &gt; Courses</h1>
+  </header>
+
+  
+  <nav>
+    <ul>
+      <li><a href="homepage.html">Home</a></li>
+      <li><a href="upload.html">Upload</a></li>
+      <li><a href="course_list.html">Courses</a></li>
+    </ul>
+  </nav>
+  <!--Everything above is from homepage.html-->
+
+
+
+  <!--Container holding sidebar and main content-->
+  <div class="layout">
+
+    <!--Sidebar section-->
+    <aside class="sidebar">
+
+      <!--First group of COMP courses-->
+      <div class="group">
+
+        <!--Title-->
+        <div class="group-title"><a href="#" class="group-link">COMP</a></div>
+        <ul class="course-list">
+          {% for course in courses if course.code.startswith('COMP') %}
+            <li>
+              <a href="#" class="course-link" data-code="{{ course.code }}">{{ course.code }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+
+
+      </div>
+
+    </aside>
+
+    
+    <main class="content">
+      <h2>Course Details</h2>
+      <div id="course-details">
+        <p>Select a course to view its details.</p>
+      </div>
+    </main>
+    
+  </div>
+
+  <script> // JS script provided by microsoft copilot
+document.querySelectorAll('.course-link').forEach(link => {
+  link.addEventListener('click', async (e) => {
+    e.preventDefault();
+    const code = link.dataset.code;
+
+    const res = await fetch(`/api/course/${code}`);
+    const data = await res.json();
+
+    const container = document.getElementById('course-details');
+    if (data.error) {
+      container.innerHTML = `<p>${data.error}</p>`;
+    } else {
+      container.innerHTML = `
+        <h3>${data.code} - ${data.title}</h3>
+        <p><strong>Description:</strong> ${data.desciption}</p>
+        <p><strong>Prerequisites:</strong> ${data.prerequisites}</p>
+        <p><strong>Hours:</strong> ${data.Hours}</p>
+        <h4>Comments</h4>
+        <ul>
+          ${data.comments && data.comments.length > 0
+            ? data.comments.map(c => `<li><strong>${c.author}</strong>: ${c.text}</li>`).join('')
+            : '<li>No comments yet.</li>'}
+        </ul>
+      `;
+    }
+  });
+});
+</script>
+</body>
+</html>
+  

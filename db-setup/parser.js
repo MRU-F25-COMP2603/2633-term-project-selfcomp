@@ -31,7 +31,7 @@ const courses = blocks.map(block => {
     return null;
    }
   if (lines.length < 4) {
-    [title, code] = lines[0].split(' - ');
+    [code, title] = lines[0].split(' - ');
     description = lines[1];
     prereqLine = "no prerequisite";
     hoursLine = lines[2];
