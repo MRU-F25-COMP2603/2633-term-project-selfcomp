@@ -27,7 +27,8 @@ def main():
     run_command("pip install -r requirements.txt")
 
     #FOR THE BETA RELEASE: the updater does not clear duplicates, so please clear the database first
-    run_command()"node db-setup/clearDB.js")
+    run_command("node db-setup/clearDB.js")
+    run_command("I WANT TO DELETE ALL COURSES")
 
     #next run the scraper, parser and updater to setup the database
     run_command("python webscraper/webscraper.py")
