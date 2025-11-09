@@ -23,6 +23,10 @@ def course_detail(code):
 def home():
     return render_template('homepage.html')
 
+@app.route('/uploads')
+def upload():
+    return render_template('upload.html')
+
 @app.route('/api/course/<code>')
 def get_course_json(code):
     course = courses_collection.find_one({'code': code.upper()})

@@ -12,7 +12,6 @@
 #        While having more success then before, it also didnt correctly scrape and due to constant chrome updates would quickly become obsolete.
 #        This version also included a comparsion to strict array defining each descriptions to only update if the information differed.
 # - A final version just scrapes web names but uses hardcoded course information due to numerious formatting issues and bugs. 
-
 #*******************************************************************************/
 
 #*******************************************************************************

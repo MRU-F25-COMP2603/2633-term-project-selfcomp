@@ -11,7 +11,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const filePath = '../Webscraper 1.0/txt.txt';
+const filePath = '../Webscraper/txt.txt';
 const rawText = fs.readFileSync(path.resolve(__dirname, filePath), 'utf-8');
 const outputPath = './courses.json';
 
@@ -46,7 +46,7 @@ const courses = blocks.map(block => {
   return {
     code: code.trim(),
     title: title.trim(),
-    desciption: description.trim(),
+    desciption: description.trim().strip(),
     prerequisites: prereqLine.trim(),
     Hours: hoursLine.trim(),
     comments: []

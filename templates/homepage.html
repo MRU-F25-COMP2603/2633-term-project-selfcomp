@@ -11,7 +11,7 @@
   <title>SelfCOMP > Home</title>
 
   <!--link to syling sheet-->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
   
@@ -24,8 +24,8 @@
   <nav>
     <ul>
       <!--clickable links-->
-      <li><a href="homepage.html">Home</a></li>
-      <li><a href="upload.html">Upload</a></li>
+      <li><a href="/">Home</a></li>
+      <li><a href="uploads">Upload</a></li>
       <li><a href="courses">Courses</a></li>
     </ul>
   </nav>
@@ -38,7 +38,7 @@
     <div class="hero-content">
 
       <!--buttons-->
-      <a class="btn" href="course_list.html">Course Catalogue</a>
+      <a class="btn" href="courses">Course Catalogue</a>
       <a class="btn" href="upload.html">Upload Files</a>
     </div>
   </section>
