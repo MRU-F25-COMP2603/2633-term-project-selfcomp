@@ -92,6 +92,7 @@ Our working Features:
 - Updating DB based on output from scraper
 - Viewable, updated course page
 
+### start of semester commit check
 <details>
 <Summary> Commit Check </summary>
 
