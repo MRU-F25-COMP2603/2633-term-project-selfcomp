@@ -13,7 +13,7 @@ const fs = require('fs');
 const path = require('path');
 const filePath = '../Webscraper/txt.txt';
 const rawText = fs.readFileSync(path.resolve(__dirname, filePath), 'utf-8');
-const outputPath = './courses.json';
+const outputPath = './db-setup/courses.json';
 
 const blocks = rawText.trim().split(/^-{3,}$/m); // split on dashed lines
 count = 0;

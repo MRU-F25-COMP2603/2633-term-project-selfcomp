@@ -23,10 +23,11 @@ Our CI workflow is detailed in the yml files in ./.github/workflows
 <summary>Running Tests</summary>
 
 <p>The test suites can also be run manually by running the following commands:</p>
-npm install
-pip install -r "requirements.txt"
-npm test
-pytest -v
+
+- npm install
+- pip install -r "requirements.txt"
+- npm test
+- pytest
 </details>
 
 ## Building the System
