@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 from pathlib import Path
-
+# This tests if our frontend is scrapable, AKA if it is a valid well structured html file.
 def test_homepage_structure():
     """
     Basic frontend test:
