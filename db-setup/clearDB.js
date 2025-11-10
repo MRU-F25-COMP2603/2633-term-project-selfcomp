@@ -13,8 +13,8 @@ const rl = readline.createInterface({
 });
 
 function clearDB() {
-  rl.question("Type 'I WANT TO DELETE ALL COURSES' to confirm deletion: ", async (query) => {
-    if (query !== 'I WANT TO DELETE ALL COURSES') {
+  rl.question("We are clearing the DB for each new build for the beta, type 'beta' to continue: ", async (query) => {
+    if (query !== 'beta') {
       console.log("Aborting");
       rl.close();
       return;

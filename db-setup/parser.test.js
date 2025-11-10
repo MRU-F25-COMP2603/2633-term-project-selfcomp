@@ -1,5 +1,5 @@
 const fs = require('fs');
-const scraperOutput = './webscraper/txt.txt';
+const scraperOutput = './Webscraper/txt.txt';
 const parserOutput = './db-setup/courses.json';
 
 
