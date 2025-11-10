@@ -12,14 +12,26 @@ Steps taken:
 '''
 
 import subprocess
+import sys
 
 #runs a shell command and handles errors
-def run_command(command): #written with help from microsoft copilot
+import subprocess
+import sys
+
+def run_command(cmd): #build using micosoft copilot
     try:
-        subprocess.run(command, check=True, shell=True)
-        print(f"Successfully executed: {command}")
+        print(f"Running: {cmd}")
+        result = subprocess.run(cmd, shell=True, check=True)
+        print(f"Success: {cmd}")
+        return result
     except subprocess.CalledProcessError as e:
-        print(f"Error executing {command}: {e}")
+        print(f"Command failed: {cmd}")
+        print(f"Exit code: {e.returncode}")
+        sys.exit(1)
+    except Exception as e:
+        print(f"Unexpected error while running {cmd}: {e}")
+        sys.exit(1)
+
 
 def main():
     # first install dependencies

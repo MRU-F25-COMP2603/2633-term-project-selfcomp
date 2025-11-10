@@ -13,11 +13,11 @@ const rl = readline.createInterface({
 });
 
 function clearDB() {
-  rl.question("We are clearing the DB for each new build for the beta, type 'beta' to continue: ", async (query) => {
+  rl.question("We are clearing the DB for each new build for the beta, type 'beta' to continue or anything else to abort clear: ", async (query) => {
     if (query !== 'beta') {
-      console.log("Aborting");
+      console.log("Aborting DB clear");
       rl.close();
-      return;
+      process.exit(1);
     }
 
     try {

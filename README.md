@@ -43,7 +43,7 @@ installations of:
 <details>
 <summary> 2. setup MongoDB </summary>
 
-1. got to [MongoDB](https://www.mongodb.com/), create account, create a cluster and setup DB user
+1. got to [MongoDB](https://www.mongodb.com/), create account, create a cluster called 'courses' in your desired project and setup DB user
 2. Under 'connect' tab find MongoDB URI connected to your db user
 3. Save this for later
 </details>
