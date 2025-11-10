@@ -1,7 +1,8 @@
 import pytest
 from unittest.mock import patch, Mock
-from webscraper import scrape_function  # Replace 'your_module' with the actual module name
+from webscraper import scrape_function  
 
+# This is just a basic web scraper dependency test, sees if it can actually run and scrape a hypothetical html file. If it fails, dependencies are missing!
 def test_scrape_function_extracts_titles():
     html_content = """
     <html>
