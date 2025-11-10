@@ -4,9 +4,12 @@
     "mongoose": "^8.19.1",
     "shelljs": "^0.10.0"
   },
+
+  
   "name": "2633-term-project-selfcomp",
   "version": "1.0.0",
   "description": "SelfComp is a website meant to house course outlines for, and information/advice from alumni for Mount Royal University's COMP courses.",
+  "type": "commonjs",
   "main": "index.js",
   "devDependencies": {
     "jest": "^30.2.0"
