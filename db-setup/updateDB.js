@@ -16,7 +16,7 @@ const dotenv = require('dotenv');
 dotenv.config({ path: path.resolve(__dirname, '../.env') });
 const MONGO_URI = process.env.MONGO_URI;
 
-const filePath = path.resolve("./courses.json");
+const filePath = path.resolve("./db-setup/courses.json");
 const rawText = fs.readFileSync(filePath, 'utf-8');
 const courseList = JSON.parse(rawText);
 
