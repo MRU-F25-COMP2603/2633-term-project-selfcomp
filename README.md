@@ -71,7 +71,7 @@ Steps performed in a build:
 
 NOTE:
 -  DB update does not currently update all fields for the beta release. The builder still functions but it does so by clearing the DB and updating from the new parser output
-- Scraper only functions on given MRU page, so hosting an instance of SelfCOMP for another school isnt currently possivle
+- Scraper only functions on given MRU page, so hosting an instance of SelfCOMP for another school isnt currently possivlegi
 </details>
 
 <details>
