@@ -6,10 +6,12 @@
  */
 
 
-const {Course} = require('./schema/Course');
 const fs = require('fs');
 const path = require('path');
+const {Course} = require('./schema/Course');
 const mongoose = require('mongoose');
+const dotenv = require('dotenv');
+
 
 //import mongoURI from .env
 const dotenv = require('dotenv');
