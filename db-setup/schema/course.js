@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+const mongoose = require('mongoose');
 
 const commentSchema = new mongoose.Schema({
     author: String,
@@ -15,5 +15,7 @@ const courseSchema = new mongoose.Schema({
     comments: [commentSchema]
 });
 
-export const Course = mongoose.model("Course", courseSchema);
-export const Comment = mongoose.model("Comment", commentSchema);
+const Course = mongoose.model("Course", courseSchema);
+const Comment = mongoose.model("Comment", commentSchema);
+
+module.exports = { Course, Comment };
