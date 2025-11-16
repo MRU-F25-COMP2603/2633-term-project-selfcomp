@@ -14,7 +14,6 @@ const dotenv = require('dotenv');
 
 
 //import mongoURI from .env
-const dotenv = require('dotenv');
 dotenv.config({ path: path.resolve(__dirname, '../.env') });
 const MONGO_URI = process.env.MONGO_URI;
 
