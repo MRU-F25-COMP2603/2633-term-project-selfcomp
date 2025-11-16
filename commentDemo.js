@@ -13,10 +13,16 @@ const rl = readline.createInterface({
 
 rl.question("Enter Course Code (ex. COMP1701): ", (courseCode) => {
     rl.question("what is your name?: ", (author) => {
-        rl.question("Enter your comment: ", (text) => {
-            addComment(courseCode, author, text).then(() => {
+        rl.question("Enter your comment: ", async (text) => {
+            try {
+            await addComment(courseCode, author, text);
+            rl.close();
+            process.exit(0);
+            } catch (error) {
+                console.error("Failed to add comment:", error);
                 rl.close();
-            });
+                process.exit(1);
+            }
         });
     });
 });

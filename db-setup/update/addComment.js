@@ -15,6 +15,7 @@ async function addComment(courseCode, author, text) {
         if (!cur) {
             console.log(`Course with code ${courseCode} not found.`);
             return;
+            process.exit(1);
         }
         cur.comments.push({author, text});
         await cur.save();
