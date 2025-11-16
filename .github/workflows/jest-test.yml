@@ -27,6 +27,8 @@ jobs:
               run: npm install  
 
             - name: Run Jest tests
+              env:
+                MONGO_URI: ${{ secrets.MONGO_URI }}
               run: npm test
     
     test-py:
