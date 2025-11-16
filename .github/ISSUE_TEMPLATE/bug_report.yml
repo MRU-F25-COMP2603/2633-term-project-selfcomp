@@ -1,29 +1,23 @@
-#https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
-
 name: SelfCOMP Bug Report
 description: Template for reporting bugs in the SelfCOMP project.
 title: "[BUG] <short description>"
-labels: bug
-assignees: ''
+labels: [bug]
 
 body:
   - type: markdown
     attributes:
-      value: Thank you for report a bug for SelfCOMP. Please fill in the details below.
+      value: "Thank you for reporting a bug for SelfCOMP. Please fill in the details below."
 
   - type: input
     id: how-to
     attributes:
-      label: How to reproduce the Bug
-      description: Please list out the exact steps that lead to the bug. If it occured on the site itself please start from initially loading the home page
-      placeholder: ex. 1. From Home click on _, 2. Click _, 3. Bug is displayed...
+      label: How to reproduce the bug
+      description: "Please list the exact steps that lead to the bug. If it occurred on the site itself, start from initially loading the home page."
+      placeholder: "ex. 1. From Home click on _, 2. Click _, 3. Bug is displayed..."
 
   - type: textarea
     id: what-happened
     attributes:
       label: What went wrong?
-      description: Please also tell us what you expected to happen.
-      placeholder: Be as descriptive as possible
-      value: "A bug happened!"
-
-  
+      description: "Please also tell us what you expected to happen."
+      placeholder: "Be as descriptive as possible"
