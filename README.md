@@ -30,61 +30,16 @@ Our CI workflow is detailed in the yml files in ./.github/workflows
 - pytest
 </details>
 
+## User Guide
+A user guide detailing use cases, building/installing the system and bugs can be found [here](https://docs.google.com/document/d/1ZUxEfDBjf170Lx-l5YD-ClSKfzw7ZeP7q8oQVgStXmw/edit?tab=t.0)
+
+## Developer Guide
+A developer guide deatiling developer tools, directory layout and making tests/release can be found [here](https://docs.google.com/document/d/1Jw3TtNEqlt9BFf0zdAct5kiCbT-Wn5PSbdegKB5hXlo/edit?tab=t.0#heading=h.hex88dxhuw91)
+
 ## Building and hosting an instance of SelfCOMP
-<details>
-<summary> 1. initial requirements </summary>
-installations of:
+These steps have been moved to and are detailed in the user guide
 
-- Visual studio build tools 2022
-- Python (3.12.10 used for development)
-- Node.js (v22.15.0 used for development)
-</details>
-
-<details>
-<summary> 2. setup MongoDB </summary>
-
-1. got to [MongoDB](https://www.mongodb.com/), create account, create a cluster called 'courses' in your desired project and setup DB user
-2. Under 'connect' tab find MongoDB URI connected to your db user
-3. Save this for later
-</details>
-
-<details>
-<summary> 3. setting up repo </summary>
-
-1. Run ``` git clone ``` on this repo
-2. In the root of the git folder create a ``` .env ``` file and inside of it make sure the following line is included:
-``` MONGO_URI=mongodb+srv://<MONGO_USERNAME>:<MONGO_PASSWORD>@courses.hoehaew.mongodb.net/?appName=courses ```
-with your MongoURI from step 2
-</details>
-
-<details>
-<summary> 4. building the system and DB </summary>
-
-Building the system can be done by running ``` python builder.py ``` from a terminal in the root directory
-
-Steps performed in a build:
-
-- install dependencies
-- run webscraper
-- parse scraper output and updateDB based on that
-- site can then be hosted/deployed using flask
-
-NOTE:
--  DB update does not currently update all fields for the beta release. The builder still functions but it does so by clearing the DB and updating from the new parser output
-- Scraper only functions on given MRU page, so hosting an instance of SelfCOMP for another school isnt currently possivlegi
-</details>
-
-<details>
-<summary> 5. hosting the system (local) </summary>
-
-NOTE: as of the beta release SelfCOMP is not hosted on a server but it can be hosted locally on your system
-
-run ``` flask run ```
-
-app is now running at https://ip.from.flask (link given from flask run return)
-</details>
-
-## Operatoinal Use Cases and Features
+## Operational Use Cases and Features
 As of the beta release our use case 1a from the living document is functional. This has an actor entering the course catalogue and viewing the details for all courses from a list actively updated by the DB.
 
 Our working Features:
