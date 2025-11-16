@@ -8,7 +8,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const {Course} = require('./schema/Course');
+const {Course} = require('./schema/course.js');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 

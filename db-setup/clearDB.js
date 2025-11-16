@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const { Course } = require('./schema/Course');
+const { Course } = require('./schema/course.js');
 const readline = require('readline');
 const path = require('path');
 
