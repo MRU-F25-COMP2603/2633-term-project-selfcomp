@@ -3,7 +3,7 @@ const scraperOutput = './Webscraper/txt.txt';
 const parserOutput = './db-setup/courses.json';
 const dotenv = require('dotenv');
 const mongoose = require('mongoose');
-const { Course } = require('./db-setup/schema/Course');
+const { Course } = require('./schema/Course');
 
 dotenv.config();
 const MONGO_URI = process.env.MONGO_URI;
