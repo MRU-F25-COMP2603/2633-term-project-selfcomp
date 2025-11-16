@@ -210,7 +210,7 @@ for block in course_blocks:
 
    
 
-with open("./Webscraper/txt.txt", "w") as f:
+with open("./txt.txt", "w") as f:
     for i in range(min(len(courses), len(course_info_array))):
         f.write(f"{courses[i].course_name}\n")
         for line in course_info_array[i]:
