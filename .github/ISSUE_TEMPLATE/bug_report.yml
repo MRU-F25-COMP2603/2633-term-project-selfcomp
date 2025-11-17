@@ -9,6 +9,13 @@ body:
       value: "Thank you for reporting a bug for SelfCOMP. Please fill in the details below."
 
   - type: input
+    id: Browser
+    attributes:
+      label: What browser were you using when the bug occurred
+      description: "Please share browser and version"
+      placeholder: "Chrome 20.0.1"
+
+  - type: input
     id: how-to
     attributes:
       label: How to reproduce the bug
