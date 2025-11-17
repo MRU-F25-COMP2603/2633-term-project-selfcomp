@@ -16,7 +16,7 @@ Aside from this repo we will also be sharing files using [Google Drive](https://
 
 ## Releases
 
-[Beta Release](https://github.com/MRU-F25-COMP2603/2633-term-project-selfcomp/releases/tag/beta-release)
+[Beta Release](https://github.com/MRU-F25-COMP2603/2633-term-project-selfcomp/releases/tag/beta-release) - 11/16/25
 
 ## Testing and CI
 SelfCOMP uses three testing frameworks: Jest, Pytest, and Beautiful Soup in order to test the database, webscraper and frontend repspectively
