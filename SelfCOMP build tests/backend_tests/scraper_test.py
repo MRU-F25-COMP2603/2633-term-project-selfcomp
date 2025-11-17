@@ -4,7 +4,7 @@ import sys
 from unittest.mock import patch, Mock
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SCRAPER_DIR = os.path.join(BASE_DIR, "../../Webscraper")
-sys.path.append(SCRAPER_DIR)
+sys.path.append(SCRAPER_DIR) #suggested pathing updates from Microsoft Copilot
 
 import webscraper
 
