@@ -13,6 +13,11 @@ SelfComp is a website meant to house course outlines for, and information/advice
 
 Aside from this repo we will also be sharing files using [Google Drive](https://drive.google.com/drive/folders/1nUbFmQfhxza2xoQnU6ltNtXfH2xv4htr?usp=sharing) and [Discord](https://discord.gg/7ah7GDtwgA)
 
+
+## Releases
+
+[Beta Release](https://github.com/MRU-F25-COMP2603/2633-term-project-selfcomp/releases/tag/beta-release)
+
 ## Testing and CI
 SelfCOMP uses three testing frameworks: Jest, Pytest, and Beautiful Soup in order to test the database, webscraper and frontend repspectively
 
