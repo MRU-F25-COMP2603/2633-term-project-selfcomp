@@ -88,6 +88,15 @@ document.querySelectorAll('.course-link').forEach(link => {
   });
 });
 </script>
+<script>/*Script logic provided by ChatGPT.*/
+document.querySelectorAll('.group-title').forEach(title => {
+  title.addEventListener('click', (e) => {
+    e.preventDefault(); // prevent default link behavior
+    const courseList = title.nextElementSibling; // the ul after the title
+    courseList.classList.toggle('collapsed');
+  });
+});
+</script>
 </body>
 </html>
   
