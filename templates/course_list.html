@@ -59,7 +59,7 @@
     
   </div>
 
-  <script> // JS script provided by microsoft copilot
+<script>
 document.querySelectorAll('.course-link').forEach(link => {
   link.addEventListener('click', async (e) => {
     e.preventDefault();
@@ -77,6 +77,21 @@ document.querySelectorAll('.course-link').forEach(link => {
         <p><strong>Description:</strong> ${data.desciption}</p>
         <p><strong>Prerequisites:</strong> ${data.prerequisites}</p>
         <p><strong>Hours:</strong> ${data.Hours}</p>
+
+        <h4>Instructors & Sections</h4>
+        <ul>
+          ${data.instructors && data.instructors.length > 0
+            ? data.instructors.map(i => `
+                <li>
+                  <strong>${i.name}</strong>
+                  <ul>
+                    ${i.terms.map(t => `<li>${t}</li>`).join('')}
+                  </ul>
+                </li>
+              `).join('')
+            : '<li>No instructors recorded.</li>'}
+        </ul>
+
         <h4>Comments</h4>
         <ul>
           ${data.comments && data.comments.length > 0
@@ -88,6 +103,8 @@ document.querySelectorAll('.course-link').forEach(link => {
   });
 });
 </script>
+
+
 </body>
 </html>
   

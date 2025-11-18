@@ -11,11 +11,16 @@
 
 const fs = require('fs');
 const path = require('path');
+const {Course} = require('./schema/course.js');
+
+
+//process txt.txt into parsable blocks
 const filePath = '../Webscraper/txt.txt';
 const rawText = fs.readFileSync(path.resolve(__dirname, filePath), 'utf-8');
 const outputPath = './db-setup/courses.json';
-
 const blocks = rawText.trim().split(/^-{3,}$/m); // split on dashed lines
+
+//Initialize count for output
 count = 0;
 
 const courses = blocks.map(block => {
@@ -43,14 +48,13 @@ const courses = blocks.map(block => {
   }
 
   count++;
-  return {
+  return new Course ({
     code: code.trim(),
     title: title.trim(),
     desciption: description.trim(),
     prerequisites: prereqLine.replace('Prerequisite(s): ', '').trim(),
     Hours: hoursLine.trim(),
-    comments: []
-  };
+  });
 }).filter(Boolean);
 
 //check for old courses.json and delete

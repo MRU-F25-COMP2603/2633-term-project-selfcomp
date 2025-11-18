@@ -5,6 +5,43 @@
     "desciption": "Introduction to object-oriented analysis and design, programming using an object-oriented language, and implementation of linked data structures. Issues of modularity, software design, and programming style will be emphasized.",
     "prerequisites": "COMP 1631 with a minimum grade of C- or higher.",
     "Hours": "Lecture Hour(s): 3",
+    "_id": "691c217cc73c73618d84fc84",
+    "instructors": [
+      {
+        "name": "Charles Hepler",
+        "terms": [
+          202504
+        ]
+      },
+      {
+        "name": "Charlotte Curtis",
+        "terms": [
+          202504,
+          202304,
+          202404,
+          202401,
+          202501
+        ]
+      },
+      {
+        "name": "Masoud Karimi Fatemi",
+        "terms": [
+          202401
+        ]
+      },
+      {
+        "name": "Bita Sadeghi",
+        "terms": [
+          202501
+        ]
+      },
+      {
+        "name": "Paul Pospisil",
+        "terms": [
+          202501
+        ]
+      }
+    ],
     "comments": []
   },
   {
@@ -13,6 +50,111 @@
     "desciption": "Introduction to object-oriented analysis and design, programming using an object-oriented language, and implementation of linked data structures. Issues of modularity, software design, and programming style will be emphasized.Prerequisite(s): COMP 1631 with a minimum grade of C- or higher.",
     "prerequisites": "no prerequisite",
     "Hours": "Lecture Hour(s): 3",
+    "_id": "691c217cc73c73618d84fc85",
+    "instructors": [
+      {
+        "name": "Patrick Perri",
+        "terms": [
+          202504
+        ]
+      },
+      {
+        "name": "Lisa Graham",
+        "terms": [
+          202504,
+          202404,
+          202501
+        ]
+      },
+      {
+        "name": "Alan Fedoruk",
+        "terms": [
+          202504,
+          202304,
+          202404,
+          202401
+        ]
+      },
+      {
+        "name": "Fatemeh Shirzad",
+        "terms": [
+          202504
+        ]
+      },
+      {
+        "name": "Bita Sadeghi",
+        "terms": [
+          202504
+        ]
+      },
+      {
+        "name": "Sana Mehdi",
+        "terms": [
+          202504,
+          202404
+        ]
+      },
+      {
+        "name": "Sajad Saraygordafshari",
+        "terms": [
+          202504
+        ]
+      },
+      {
+        "name": "Masoud Karimi Fatemi",
+        "terms": [
+          202504,
+          202404
+        ]
+      },
+      {
+        "name": "Sohaib Bajwa",
+        "terms": [
+          202504,
+          202404
+        ]
+      },
+      {
+        "name": "David Chalmers",
+        "terms": [
+          202304,
+          202404
+        ]
+      },
+      {
+        "name": "Charlotte Curtis",
+        "terms": [
+          202304
+        ]
+      },
+      {
+        "name": "Jordan Pratt",
+        "terms": [
+          202304
+        ]
+      },
+      {
+        "name": "Orestes Appel",
+        "terms": [
+          202304,
+          202404,
+          202401,
+          202501
+        ]
+      },
+      {
+        "name": "Apoorve Chokshi",
+        "terms": [
+          202304
+        ]
+      },
+      {
+        "name": "Iryna Luchak",
+        "terms": [
+          202404
+        ]
+      }
+    ],
     "comments": []
   },
   {
@@ -21,6 +163,23 @@
     "desciption": "Provides insight into the theoretical foundations of computing science. Topics include abstract machines (finite automata, push down automata, Turing machines), formal language hierarchy, and applications.",
     "prerequisites": "MATH 1271 and COMP 1633 with minimum grades of C- or higher.",
     "Hours": "Lecture Hour(s): 3",
+    "_id": "691c217cc73c73618d84fc86",
+    "instructors": [
+      {
+        "name": "Orestes Appel",
+        "terms": [
+          202504,
+          202404
+        ]
+      },
+      {
+        "name": "Charles Hepler",
+        "terms": [
+          202304,
+          202501
+        ]
+      }
+    ],
     "comments": []
   },
   {
@@ -29,6 +188,47 @@
     "desciption": "Study of data structures including trees, graphs, and hash tables. Emphasis on searching, sorting, and algorithm efficiency.",
     "prerequisites": "COMP 1633 with a minimum grade of C- or higher.",
     "Hours": "Lecture Hour(s): 3",
+    "_id": "691c217cc73c73618d84fc87",
+    "instructors": [
+      {
+        "name": "Jason Heard",
+        "terms": [
+          202504,
+          202404
+        ]
+      },
+      {
+        "name": "Mia MacTavish",
+        "terms": [
+          202504
+        ]
+      },
+      {
+        "name": "Charles Hepler",
+        "terms": [
+          202304
+        ]
+      },
+      {
+        "name": "Mariam Elhussein",
+        "terms": [
+          202304
+        ]
+      },
+      {
+        "name": "Bita Sadeghi",
+        "terms": [
+          202404,
+          202401
+        ]
+      },
+      {
+        "name": "Andrew Bloch-Hansen",
+        "terms": [
+          202501
+        ]
+      }
+    ],
     "comments": []
   },
   {
@@ -37,6 +237,29 @@
     "desciption": "Introduction to software development problems and processes. Covers software life cycles, process improvement, requirements analysis, design, implementation, integration, and testing.",
     "prerequisites": "COMP 2631 with a minimum grade of C- or higher.",
     "Hours": "Lecture Hour(s): 3",
+    "_id": "691c217cc73c73618d84fc88",
+    "instructors": [
+      {
+        "name": "Apoorve Chokshi",
+        "terms": [
+          202504
+        ]
+      },
+      {
+        "name": "Jordan Kidney",
+        "terms": [
+          202404,
+          202401,
+          202501
+        ]
+      },
+      {
+        "name": "Bita Sadeghi",
+        "terms": [
+          202501
+        ]
+      }
+    ],
     "comments": []
   },
   {
@@ -45,6 +268,37 @@
     "desciption": "Detailed study of CPU architecture and internal data representations. Introduction to assembly language programming and implementation of control structures and data structures.",
     "prerequisites": "COMP 1633 with a minimum grade of C- or higher.",
     "Hours": "Lecture Hour(s): 3",
+    "_id": "691c217cc73c73618d84fc89",
+    "instructors": [
+      {
+        "name": "Paul Pospisil",
+        "terms": [
+          202504,
+          202304,
+          202501
+        ]
+      },
+      {
+        "name": "Terrance Mok",
+        "terms": [
+          202504
+        ]
+      },
+      {
+        "name": "Steven Kalmar",
+        "terms": [
+          202304,
+          202404,
+          202401
+        ]
+      },
+      {
+        "name": "Aresh Dadlani",
+        "terms": [
+          202404
+        ]
+      }
+    ],
     "comments": []
   },
   {
@@ -53,6 +307,35 @@
     "desciption": "Covers CPU organization, memory, I/O interfaces, devices, and busses. Includes digital logic design, hardware interfacing, asynchronous I/O, and interrupt processing.",
     "prerequisites": "PHIL 1179 and COMP 2655 with minimum grades of C- or higher.",
     "Hours": "Lecture Hour(s): 3",
+    "_id": "691c217cc73c73618d84fc8a",
+    "instructors": [
+      {
+        "name": "Steven Kalmar",
+        "terms": [
+          202504,
+          202501
+        ]
+      },
+      {
+        "name": "Paul Pospisil",
+        "terms": [
+          202404,
+          202401
+        ]
+      },
+      {
+        "name": "Marc Schroeder",
+        "terms": [
+          202401
+        ]
+      },
+      {
+        "name": "Timothy Reimer",
+        "terms": [
+          202501
+        ]
+      }
+    ],
     "comments": []
   },
   {
@@ -61,6 +344,62 @@
     "desciption": "Explores the implications of information technology for society including historical, legal, ethical, economic, and philosophical perspectives.",
     "prerequisites": "GNED 1301, GNED 1303, or GNED 1304.",
     "Hours": "Lecture Hour(s): 3",
+    "_id": "691c217cc73c73618d84fc8b",
+    "instructors": [
+      {
+        "name": "Mia MacTavish",
+        "terms": [
+          202504
+        ]
+      },
+      {
+        "name": "Lisa Graham",
+        "terms": [
+          202504,
+          202404,
+          202402,
+          202401
+        ]
+      },
+      {
+        "name": "Jordan Kidney",
+        "terms": [
+          202504,
+          202304
+        ]
+      },
+      {
+        "name": "Khosro Salmani",
+        "terms": [
+          202404
+        ]
+      },
+      {
+        "name": "Sohaib Bajwa",
+        "terms": [
+          202502
+        ]
+      },
+      {
+        "name": "Patrick Perri",
+        "terms": [
+          202401
+        ]
+      },
+      {
+        "name": "Randy Connolly",
+        "terms": [
+          202401,
+          202501
+        ]
+      },
+      {
+        "name": "Orestes Appel",
+        "terms": [
+          202501
+        ]
+      }
+    ],
     "comments": []
   },
   {
@@ -69,6 +408,22 @@
     "desciption": "Design and analysis of algorithms. Covers greedy algorithms, divide-and-conquer, recursive backtracking, dynamic programming, heuristics, and NP-completeness.",
     "prerequisites": "COMP 2631, COMP 2613 and MATH 1200 with minimum grades of C-.",
     "Hours": "Lecture Hour(s): 3",
+    "_id": "691c217cc73c73618d84fc8c",
+    "instructors": [
+      {
+        "name": "Andrew Bloch-Hansen",
+        "terms": [
+          202504
+        ]
+      },
+      {
+        "name": "Charles Hepler",
+        "terms": [
+          202401,
+          202501
+        ]
+      }
+    ],
     "comments": []
   },
   {
@@ -77,6 +432,22 @@
     "desciption": "Examines major programming paradigms with emphasis on declarative paradigms like functional and logic programming. Topics include data types, control expressions, lazy evaluation, and information hiding.",
     "prerequisites": "COMP 2613, COMP 2631 and PHIL 1179 with minimum grades of C- or higher.",
     "Hours": "Lecture Hour(s): 3",
+    "_id": "691c217cc73c73618d84fc8d",
+    "instructors": [
+      {
+        "name": "Orestes Appel",
+        "terms": [
+          202504
+        ]
+      },
+      {
+        "name": "Marc Schroeder",
+        "terms": [
+          202401,
+          202501
+        ]
+      }
+    ],
     "comments": []
   },
   {
@@ -85,6 +456,23 @@
     "desciption": "Introduces principles and techniques for designing and implementing operating systems. Topics include performance, concurrency, file and process management, security, memory, and processor resources.",
     "prerequisites": "COMP 2631 and COMP 2659 with minimum grades of C-.",
     "Hours": "Lecture Hour(s): 3",
+    "_id": "691c217cc73c73618d84fc8e",
+    "instructors": [
+      {
+        "name": "Marc Schroeder",
+        "terms": [
+          202504,
+          202304,
+          202404
+        ]
+      },
+      {
+        "name": "Mohamed ElMenshawy Mohamed",
+        "terms": [
+          202501
+        ]
+      }
+    ],
     "comments": []
   },
   {
@@ -93,6 +481,127 @@
     "desciption": "Introduction to calculus with applications in science, business, and economics. Covers limits, derivatives, integrals, and techniques of integration.",
     "prerequisites": "60% or higher in Mathematics 30-1 or MATH 0130, or C- or higher in MATH 1283, MATH 1285, or equivalent.",
     "Hours": "Lecture Hour(s): 4",
+    "_id": "691c217cc73c73618d84fc8f",
+    "instructors": [
+      {
+        "name": "Ganesh Bhandari",
+        "terms": [
+          202504,
+          202304,
+          202404
+        ]
+      },
+      {
+        "name": "Carlos Videla Rico",
+        "terms": [
+          202504,
+          202304,
+          202404
+        ]
+      },
+      {
+        "name": "Erin Moulding",
+        "terms": [
+          202504,
+          202404
+        ]
+      },
+      {
+        "name": "Mariya Svishchuk",
+        "terms": [
+          202504,
+          202304,
+          202404,
+          202501
+        ]
+      },
+      {
+        "name": "Andria Dawson",
+        "terms": [
+          202504,
+          202404
+        ]
+      },
+      {
+        "name": "Digby Smith",
+        "terms": [
+          202504,
+          202304,
+          202404,
+          202402,
+          202401,
+          202501
+        ]
+      },
+      {
+        "name": "Pamini Thangarajah",
+        "terms": [
+          202504,
+          202304,
+          202404
+        ]
+      },
+      {
+        "name": "Perlas Caranay",
+        "terms": [
+          202504,
+          202502,
+          202501
+        ]
+      },
+      {
+        "name": "Laura Marik",
+        "terms": [
+          202504,
+          202502,
+          202401
+        ]
+      },
+      {
+        "name": "Adam Humeniuk",
+        "terms": [
+          202304
+        ]
+      },
+      {
+        "name": "Roberta La Haye",
+        "terms": [
+          202304,
+          202401
+        ]
+      },
+      {
+        "name": "Eric Roettger",
+        "terms": [
+          202304,
+          202404
+        ]
+      },
+      {
+        "name": "undefined undefined",
+        "terms": [
+          202402
+        ]
+      },
+      {
+        "name": "Edgar Pacheco Castan",
+        "terms": [
+          202401
+        ]
+      },
+      {
+        "name": "Gabriel Jarry-Bolduc",
+        "terms": [
+          202501
+        ]
+      },
+      {
+        "name": "Keira Gunn",
+        "terms": [
+          202501
+        ]
+      }
+    ],
     "comments": []
   },
   {
@@ -101,6 +610,80 @@
     "desciption": "Introduction to linear algebra for science students. Topics include vector and matrix algebra, systems of linear equations, determinants, linear transformations, polar coordinates, complex numbers, and applications using eigenvalues and eigenvectors.",
     "prerequisites": "Mathematics 30-1 with a 60% or higher.",
     "Hours": "Lecture Hour(s): 3",
+    "_id": "691c217cc73c73618d84fc90",
+    "instructors": [
+      {
+        "name": "Carlos Videla Rico",
+        "terms": [
+          202504,
+          202304,
+          202401,
+          202501
+        ]
+      },
+      {
+        "name": "Ganesh Bhandari",
+        "terms": [
+          202504,
+          202304,
+          202501
+        ]
+      },
+      {
+        "name": "Alexander Liu",
+        "terms": [
+          202504,
+          202401,
+          202501
+        ]
+      },
+      {
+        "name": "Pamini Thangarajah",
+        "terms": [
+          202504,
+          202501
+        ]
+      },
+      {
+        "name": "Digby Smith",
+        "terms": [
+          202304,
+          202501
+        ]
+      },
+      {
+        "name": "Gabriel Jarry-Bolduc",
+        "terms": [
+          202404
+        ]
+      },
+      {
+        "name": "Laura Marik",
+        "terms": [
+          202404,
+          202402
+        ]
+      },
+      {
+        "name": "Roberta La Haye",
+        "terms": [
+          202404
+        ]
+      },
+      {
+        "name": "Erin Moulding",
+        "terms": [
+          202502,
+          202401
+        ]
+      },
+      {
+        "name": "Adam Humeniuk",
+        "terms": [
+          202401
+        ]
+      }
+    ],
     "comments": []
   },
   {
@@ -109,6 +692,29 @@
     "desciption": "Introduction to symbolic logic, techniques of proof, sets, equivalence relations, mathematical induction, recursion, counting principles, graphs, and trees.",
     "prerequisites": "MATH 1203 with a grade of C- or higher.",
     "Hours": "Lecture Hour(s): 3",
+    "_id": "691c217cc73c73618d84fc91",
+    "instructors": [
+      {
+        "name": "Roberta La Haye",
+        "terms": [
+          202504,
+          202404
+        ]
+      },
+      {
+        "name": "Eric Roettger",
+        "terms": [
+          202304
+        ]
+      },
+      {
+        "name": "Carlos Videla Rico",
+        "terms": [
+          202401,
+          202501
+        ]
+      }
+    ],
     "comments": []
   },
   {
@@ -117,6 +723,41 @@
     "desciption": "Covers descriptive statistics, probability theory, and inferential statistics. Topics include population means and proportions, regression, correlation, chi-square tests, and ANOVA. Labs use statistical software to apply concepts to real data.",
     "prerequisites": "MATH 1200 with a grade of C- or higher.",
     "Hours": "Lecture Hour(s): 4",
+    "_id": "691c217cc73c73618d84fc92",
+    "instructors": [
+      {
+        "name": "Alexander Liu",
+        "terms": [
+          202504,
+          202404,
+          202402,
+          202502,
+          202401,
+          202501
+        ]
+      },
+      {
+        "name": "William Ruth",
+        "terms": [
+          202504
+        ]
+      },
+      {
+        "name": "Ashok Krishnamurthy",
+        "terms": [
+          202304,
+          202501
+        ]
+      },
+      {
+        "name": "Fatemeh Mahmoudi",
+        "terms": [
+          202404,
+          202401,
+          202501
+        ]
+      }
+    ],
     "comments": []
   },
   {
@@ -125,6 +766,8 @@
     "desciption": "Introduces sentential and first-order logic from deductive and semantic perspectives. Includes discussion of elementary metatheorems.",
     "prerequisites": "None listed.",
     "Hours": "Lecture Hour(s): 3",
+    "_id": "691c217cc73c73618d84fc93",
+    "instructors": [],
     "comments": []
   },
   {
@@ -133,6 +776,31 @@
     "desciption": "This course covers the principles and practice of computer networking, focusing on the high-level protocol-oriented aspects of computer networks. Networking as it relates to database and file service applications is examined along with Internet structure, protocols and routing. Various aspects of security in networked information systems are studied.",
     "prerequisites": "COMP 3532 with a minimum grade of C-.",
     "Hours": "Lecture Hour(s): 3",
+    "_id": "691c217cc73c73618d84fc94",
+    "instructors": [
+      {
+        "name": "Fatemeh Shirzad",
+        "terms": [
+          202504
+        ]
+      },
+      {
+        "name": "Mingwei Gong",
+        "terms": [
+          202504,
+          202501
+        ]
+      },
+      {
+        "name": "Bibi Maryam Elahi",
+        "terms": [
+          202304,
+          202404,
+          202401,
+          202501
+        ]
+      }
+    ],
     "comments": []
   },
   {
@@ -141,6 +809,24 @@
     "desciption": "This course covers the fundamental theory and practice in the design and evaluation of human-computer interfaces. The impacts of computer-based information systems on individuals and organizations are examined along with the rationale for a user-centric approach in all IT applications and systems.",
     "prerequisites": "COMP 2511 and COMP 2503 with a minimum grade of C-.",
     "Hours": "Lecture Hour(s): 3",
+    "_id": "691c217cc73c73618d84fc95",
+    "instructors": [
+      {
+        "name": "Iryna Luchak",
+        "terms": [
+          202504
+        ]
+      },
+      {
+        "name": "Namrata Khemka-Dolan",
+        "terms": [
+          202304,
+          202404,
+          202401,
+          202501
+        ]
+      }
+    ],
     "comments": []
   },
   {
@@ -149,6 +835,17 @@
     "desciption": "This course provides an overview of web development suitable for computer science majors. It covers the broad spectrum of technologies used within this environment. Design, tools, and development processes unique to web development will also be covered.",
     "prerequisites": "COMP 2633 with a minimum grade of C-.",
     "Hours": "Lecture Hour(s): 3",
+    "_id": "691c217cc73c73618d84fc96",
+    "instructors": [
+      {
+        "name": "Randy Connolly",
+        "terms": [
+          202504,
+          202304,
+          202404
+        ]
+      }
+    ],
     "comments": []
   },
   {
@@ -157,6 +854,22 @@
     "desciption": "This course provides an introduction to artificial intelligence concepts and techniques. Topics include the characteristics of problems for which intelligent systems can be built, the agent paradigm, search strategies, knowledge representation, logical reasoning, reasoning under uncertainty, and machine learning. Multi-agent systems, robotics, computer vision, and/or natural language processing will be introduced, as time permits.",
     "prerequisites": "A minimum grade of �C-� in all of COMP 2631, COMP 2613 and MATH 2234.",
     "Hours": "Lecture Hour(s): 3",
+    "_id": "691c217cc73c73618d84fc97",
+    "instructors": [
+      {
+        "name": "David Chalmers",
+        "terms": [
+          202504,
+          202404
+        ]
+      },
+      {
+        "name": "Orestes Appel",
+        "terms": [
+          202304
+        ]
+      }
+    ],
     "comments": []
   },
   {
@@ -165,6 +878,8 @@
     "desciption": "This course provides a broad understanding of the issues in developing and analyzing evolutionary and swarm computation systems. Topics that may be covered are genetic algorithms, evolution strategies, evolution programming, genetic programming, classifier systems, swarm optimization, constraint handling, dynamic environments, co-evolutionary systems, cellular automata, and neural networks.",
     "prerequisites": "COMP 2631 with a minimum grade of C-.",
     "Hours": "Lecture Hour(s): 3",
+    "_id": "691c217cc73c73618d84fc98",
+    "instructors": [],
     "comments": []
   }
 ]
