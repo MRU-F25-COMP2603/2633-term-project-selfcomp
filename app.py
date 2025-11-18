@@ -3,12 +3,15 @@ from bson.json_util import dumps
 from pymongo import MongoClient
 from dotenv import load_dotenv
 from auth import authenticate, login_required
+from datetime import timedelta
 import os
 
 load_dotenv()
 app = Flask(__name__)
 
 app.secret_key = os.environ.get("FLASK_SECRET_KEY")
+
+app.permanent_session_lifetime = timedelta(minutes=30)
 
 client = MongoClient(os.getenv('MONGO_URI'))
 db = client.get_database('test')
@@ -20,6 +23,7 @@ def login():
         username = request.form.get("username")
         password = request.form.get("password")
         if authenticate(username,password):
+            session.permanent = True
             session["user"] = username
             return redirect(url_for("home"))
         return "Invalid credentials, refresh page to try again",401
