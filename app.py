@@ -8,10 +8,11 @@ import os
 load_dotenv()
 app = Flask(__name__)
 
-app.secret_key = os.getenv("SECRET_KEY")
+app.secret_key = os.environ.get("FLASK_SECRET_KEY")
 
 client = MongoClient(os.getenv('MONGO_URI'))
 db = client.get_database('test')
+
 courses_collection = db.get_collection('courses')
 @app.route('/login', methods=['GET','POST'])
 def login():
@@ -21,8 +22,13 @@ def login():
         if authenticate(username,password):
             session["user"] = username
             return redirect(url_for("home"))
-        return "Invalid credentials",401
+        return "Invalid credentials, refresh page to try again",401
     return render_template("login.html")
+
+@app.route('/logout')
+def logout():
+    session.clear()
+    return redirect(url_for("home"))
 
 
 @app.route('/courses')
