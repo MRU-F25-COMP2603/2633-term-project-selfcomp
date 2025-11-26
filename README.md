@@ -18,21 +18,21 @@ Aside from this repo we will also be sharing files using [Google Drive](https://
 
 [Beta Release](https://github.com/MRU-F25-COMP2603/2633-term-project-selfcomp/releases/tag/beta-release) - 11/16/25
 
-## Testing and CI
+## CI and Scripts
 SelfCOMP uses three testing frameworks: Jest, Pytest, and Beautiful Soup in order to test the database, webscraper and frontend repspectively
 
 This project utilized GitHub Actions to run tests for any push. We arrived in GitHub actions due to its ease of use 
 
 Our CI workflow is detailed in the yml files in ./.github/workflows
 <details>
-<summary>Running Tests</summary>
+<summary>Scripts</summary>
 
-<p>The test suites can also be run manually by running the following commands:</p>
+<p>
+There are two scripts included in our root directory: builder.py and tester.py
+</p>
 
-- npm install
-- pip install -r "requirements.txt"
-- npm test
-- pytest
+- Builder: run using `python builder.py`, builds the system after following the steps in our user guide below
+- Tester: run using `python tester.py`, runs our Jest and Pytest test structures
 </details>
 
 ## User Guide
