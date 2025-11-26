@@ -15,8 +15,8 @@ app.permanent_session_lifetime = timedelta(minutes=30)
 
 client = MongoClient(os.getenv('MONGO_URI'))
 db = client.get_database('test')
-
 courses_collection = db.get_collection('courses')
+
 @app.route('/login', methods=['GET','POST'])
 def login():
     if request.method == 'POST':
@@ -56,6 +56,35 @@ def home():
 @login_required
 def upload():
     return render_template('upload.html')
+
+@app.route('/uploads/comment/')
+@login_required
+def comment_upload():
+    return render_template('comment_up.html')
+
+@app.route("/api/addComment", methods=["POST"])
+def add_comment():
+    data = request.get_json()
+    code = data.get("code")
+    author = data.get("author")
+    comment = data.get("comment")
+
+    course = courses_collection.find_one({"code": code})
+    if not course:
+        return jsonify({"message": f"Course with code {code} not found."}), 404
+
+    # Push new comment into the course document
+    courses_collection.update_one(
+        {"code": code},
+        {"$push": {"comments": {"author": author, "text": comment}}}
+    )
+
+    return jsonify({"message": "Comment successfully added."}), 200
+
+@app.route('/wip')
+@login_required
+def wip():
+    return render_template('wip.html')
 
 @app.route('/api/course/<code>')
 @login_required

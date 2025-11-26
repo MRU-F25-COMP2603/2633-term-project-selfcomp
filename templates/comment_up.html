@@ -18,7 +18,7 @@
   
   <!--Top banner-->
   <header>
-    <h1>SelfCOMP &gt; Home</h1>
+    <h1>SelfCOMP &gt; Upload &gt; Comment</h1>
   </header>
 
   <!--navigation bar-->
@@ -36,12 +36,27 @@
     <img src="image-to-add.jpg" alt="" class="hero-image">
 
     <!--content centred on image-->
-    <div class="hero-content">
-
-      <!--buttons-->
-      <a class="btn" href="courses">Courses</a>
-      <a class="btn" href="uploads">Upload</a>
-    </div>
-  </section>
+    <div class="comment-box">
+    <h3>Course Comment Upload</h3>
+    <form id="comment-form">
+        <input type="text" id="name-input" placeholder="First and last name" required>
+        <input type="text" id="code-input" placeholder="ex. COMP1701" required>
+        <textarea id="comment-input" placeholder="Type your course comment here" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="output"></div>
+<script src="{{ url_for('static', filename='comment.js') }}"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
