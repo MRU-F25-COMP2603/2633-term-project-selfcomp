@@ -3,6 +3,6 @@ node_modules
 *.xlsx
 **/__pycache__/
 *.pyc
-*/courses.json
-*/txt.txt
+db-setup/courses.json
+Webscraper/txt.txt
 
