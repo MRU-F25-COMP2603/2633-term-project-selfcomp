@@ -44,6 +44,7 @@ def main():
     #next run the scraper, parser and updater to setup the database
     run_command("python webscraper/webscraper.py")
     run_command("node db-setup/parser.js")
+    run_command("node db-setup/schedules.js")
     run_command("node db-setup/updateDB.js")
 
 if __name__ == "__main__":
