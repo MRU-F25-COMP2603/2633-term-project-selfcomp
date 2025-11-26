@@ -192,3 +192,25 @@ header {
 .course-actions {
   margin-top: 16px;
 }
+
+.instructors {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.instructors li {
+  background: #f9f9f9;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.95rem;
+}
+
+.instructors li strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: #333;
+}

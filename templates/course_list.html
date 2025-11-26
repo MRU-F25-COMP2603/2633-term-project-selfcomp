@@ -33,7 +33,6 @@
 
       <!--First group of COMP courses-->
       <div class="group">
-
         <!--Title-->
         <div class="group-title"><a href="#" class="group-link">COMP</a></div>
         <ul class="course-list">
@@ -43,8 +42,19 @@
             </li>
           {% endfor %}
         </ul>
+      </div>
 
-
+      <!--Second group of MATH courses-->
+      <div class="group">
+        <!--Title-->
+        <div class="group-title"><a href="#" class="group-link">MATH</a></div>
+        <ul class="course-list">
+          {% for course in courses if course.code.startswith('MATH') %}
+            <li>
+              <a href="#" class="course-link" data-code="{{ course.code }}">{{ course.code }}</a>
+            </li>
+          {% endfor %}
+        </ul>
       </div>
 
     </aside>
@@ -59,33 +69,39 @@
     
   </div>
 
-<script>
+<script> //built partially using VScode Copilot assitant
 document.querySelectorAll('.course-link').forEach(link => {
   link.addEventListener('click', async (e) => {
     e.preventDefault();
     const code = link.dataset.code;
-
-    const res = await fetch(`/api/course/${code}`);
-    const data = await res.json();
-
     const container = document.getElementById('course-details');
-    if (data.error) {
-      container.innerHTML = `<p>${data.error}</p>`;
-    } else {
+
+    try {
+      const res = await fetch(`/api/course/${code}`);
+      const data = await res.json();
+
+      if (data.error) {
+        container.innerHTML = `<p>${data.error}</p>`;
+        return;
+      }
+
+      const instructors = Array.isArray(data.instructors) ? data.instructors : [];
+      const comments = Array.isArray(data.comments) ? data.comments : [];
+
       container.innerHTML = `
         <h3>${data.code} - ${data.title}</h3>
-        <p><strong>Description:</strong> ${data.desciption}</p>
+        <p><strong>Description:</strong> ${data.description}</p>
         <p><strong>Prerequisites:</strong> ${data.prerequisites}</p>
-        <p><strong>Hours:</strong> ${data.Hours}</p>
+        <p><strong>Hours:</strong> ${data.hours}</p>
 
         <h4>Instructors & Sections</h4>
-        <ul>
-          ${data.instructors && data.instructors.length > 0
-            ? data.instructors.map(i => `
-                <li>
-                  <strong>${i.name}</strong>
-                  <ul>
-                    ${i.terms.map(t => `<li>${t}</li>`).join('')}
+        <ul class="instructors">
+          ${instructors.length > 0
+            ? instructors.map(i => `
+                <li class="instructor">
+                  <strong class="instructor-name">${i.name}</strong>
+                  <ul class="terms">
+                    ${Array.isArray(i.terms) ? i.terms.map(t => `<li class="term">${t}</li>`).join('') : ''}
                   </ul>
                 </li>
               `).join('')
@@ -93,12 +109,14 @@ document.querySelectorAll('.course-link').forEach(link => {
         </ul>
 
         <h4>Comments</h4>
-        <ul>
-          ${data.comments && data.comments.length > 0
-            ? data.comments.map(c => `<li><strong>${c.author}</strong>: ${c.text}</li>`).join('')
+        <ul class="comments">
+          ${comments.length > 0
+            ? comments.map(c => `<li class="comment"><strong class="comment-author">${c.author}</strong>: ${c.text}</li>`).join('')
             : '<li>No comments yet.</li>'}
         </ul>
       `;
+    } catch (err) {
+      container.innerHTML = `<p>Error loading course: ${err.message}</p>`;
     }
   });
 });
