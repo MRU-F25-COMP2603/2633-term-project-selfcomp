@@ -134,6 +134,7 @@ header {
   /* space inside sidebar*/
   padding: 14px;
 }
+
 /* spacing between course groups*/
 .group { 
   margin-bottom: 18px;
@@ -162,6 +163,10 @@ header {
   margin: 0;
   padding: 0 0 0 0;
 }
+.course-list.collapsed {
+  display: none;
+}
+
 
 /* course content area*/
 .content {
