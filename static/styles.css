@@ -275,7 +275,21 @@ button:hover {
   background-color: #005fa3;
 }
 
+.BTH {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #007acc;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.BTH:hover {
+  background-color: #005fa3;
+}
+
 #output {
   margin-top: 15px;
+  color: white;
   font-style: italic;
 }

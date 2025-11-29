@@ -14,4 +14,6 @@ document.getElementById("comment-form").addEventListener("submit", async functio
 
   const result = await response.json();
   document.getElementById("output").textContent = result.message;
+
+  document.getElementById("comment-form").reset();
 });
