@@ -354,4 +354,30 @@ button:hover {
   margin-bottom: 10px;
 }
 
-/* Login button */
+/* course list visuals */
+
+.course-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.course-list li {
+  margin: 3px 0;
+}
+
+.course-link {
+  display: block;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  color: #333;
+  text-decoration: none; 
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.course-link:hover {
+  background-color: #AAAAAA; /* highlight on hover */
+  color: white;
+  transform: translateX(4px); /* slight slide effect */
+}
