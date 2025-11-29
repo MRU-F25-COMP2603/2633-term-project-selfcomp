@@ -9,7 +9,7 @@ SelfComp is a website meant to house course outlines for, and information/advice
 - [Yacob Mesfun](https://github.com/Ymesfun) 
 - [Lorenzo Primiterra]
 
-## Other Rescources
+## Other Resources
 
 Aside from this repo we will also be sharing files using [Google Drive](https://drive.google.com/drive/folders/1nUbFmQfhxza2xoQnU6ltNtXfH2xv4htr?usp=sharing) and [Discord](https://discord.gg/7ah7GDtwgA)
 
