@@ -108,11 +108,20 @@ document.querySelectorAll('.course-link').forEach(link => {
             : '<li>No instructors recorded.</li>'}
         </ul>
 
+
+
+        
+
         <h4>Comments</h4>
         <ul class="comments">
           ${comments.length > 0
-            ? comments.map(c => `<li class="comment"><strong class="comment-author">${c.author}</strong>: ${c.text}</li>`).join('')
-            : '<li>No comments yet.</li>'}
+            ? comments.map(c => `
+              <li class="comment">
+                <strong class="comment-author">${c.author}</strong>
+                <p class="comment-text">${c.text}</p>
+            </li>
+          `).join('')
+        : '<li>No comments yet.</li>'}
         </ul>
       `;
     } catch (err) {
@@ -124,5 +133,5 @@ document.querySelectorAll('.course-link').forEach(link => {
 
 
 </body>
-</html>
+</html> 
   

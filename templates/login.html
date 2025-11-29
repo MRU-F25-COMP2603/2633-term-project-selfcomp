@@ -4,16 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login. Currently a WIP page.</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h2>Login</h2>
-    <form action ="/login" method="POST">
-        <label>Username:</label>
-        <input name="username">
-        <label>Password:</label>
-        <input name="password" type="password">
-        <button type="submit">login</button>
-    </form>
+    <div class="login-wrapper">
+        <div class="login-box">
+            <h1> Welcome to SelfCOMP</h1>
+
+            <h2>Login</h2>
+            <form action ="/login" method="POST">
+                <label>Username:</label>
+                <input name="username">
+
+                <br>
+
+                <label>Password:</label>
+                <input name="password" type="password">
+
+                <br>
+
+                <button type="submit">login</button>
+            </form>
+
+        </div>
+    </div>
+
+
     
 </body>
 </html>
