@@ -10,36 +10,38 @@ body {
   font-family: Arial, sans-serif;
 }
 
-
+/**/
 header {
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #7aa3e3 100%
+  );
   /* Banner background */
-  background-color: white;
+  background-color: #ffffffcc;
   /* text color*/    
-  color: black;
+  color: #111;
   /* padding around header*/
-  padding: 16px;
-  font-size: 20px;
+  padding: 16px 32px;
+  font-size: 24px;
+  font-weight: 700;
   /* Divider under header */
-  border-bottom: 1px solid #ccc;
+  border-bottom: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(8px);
 }
 
-/* Navigation bar*/
+/* Navigation bar */
 .top-nav ul {
-  /* remove default bullets */
   list-style: none;
-  /* Nav items in a row */
-  display: flex;  
-  /* Spread items evenly*/               
+  display: flex;
   justify-content: space-between;
-  /* Space inside the navigation bar*/
-  padding: 12px 16px;
-  /* light border above */
-  border-top: 1px solid #ccc;
-  /* light blue background*/
-  background: #5891d2;
-  /* border below*/
-  border-bottom: 1px solid #ccc;
+  padding: 10px 32px;                         
+  border-top: none;
+  border-bottom: 1px solid #d0d7de;
+  background: linear-gradient(90deg, #4f8edb, #2f6ac0);
 }
+
 
 .top-nav ul li {
   /* make each mav item take equal space */
@@ -54,12 +56,14 @@ header {
 
 /* Link styling inside navigation*/
 .top-nav a {
+  font-size: 20px;
   /* removes undeerline*/
   text-decoration: none;
   /* black link text*/
   color: #000;
   /* bold link label*/
   font-weight: bold;
+  position: relative;
 }
 
 /* Banner image*/
@@ -86,36 +90,47 @@ header {
   flex-direction: column;
   align-items: center; /* center buttons horizontally */
 }
+
+.hero-content .btn {
+  margin: 14px 0;
+}
 /* styling for buttons*/
+
+
 .btn {
   /* Makes link act like button*/
-  display: flex;
+  display: inline-block;
   /* Verical spacing and center*/
   margin: 12px 0;
   /* button size */
-  padding: 12px 24px;
+  padding: 12px 32px;
   /* button text color*/
+  min-width: 200px;
   color: black;
   /* thin gray border*/
   border: 1px solid #bbb;
   /* light blue background*/
-  background-color: #5891d2;
-  font-size: 16px;
+  background-color: #4f8edb;
+  font-size: 18px;
+  font-weight: 600;
   /* Makes cursor pointer above hover*/
   cursor: pointer;
   /* removes underline*/
   text-decoration: none;
   /* center text inside*/
   text-align: center;
-  /* rounded corners */
-  border-radius: 6px;
+  
+  border: none;
+  border-radius: 10px;
   /* consistent button width*/
-  min-width: 200px;
+  min-width: 260px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
 }
 /* changes color when hovering above */
 .btn:hover {
   /* light gray when hovering*/
-  background-color: #ddd;
+  background-color: #3b76cf;
 }
 
 /* Course page 2 column layout */
@@ -341,3 +356,5 @@ button:hover {
 }
 
 /* Login button */
+
+
