@@ -51,7 +51,7 @@ const courses = blocks.map(block => {
   return new Course ({
     code: code.trim(),
     title: title.trim(),
-    desciption: description.trim(),
+    description: description.trim(),
     prerequisites: prereqLine.replace('Prerequisite(s): ', '').trim(),
     Hours: hoursLine.trim(),
   });

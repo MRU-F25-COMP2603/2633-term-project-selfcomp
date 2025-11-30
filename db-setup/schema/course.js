@@ -14,7 +14,7 @@ const instructorSchema = new mongoose.Schema({
 const courseSchema = new mongoose.Schema({
     code: String,
     title: String,
-    desciption: String,
+    description: String,
     prerequisites: String,
     Hours: String,
     instructors: [instructorSchema],

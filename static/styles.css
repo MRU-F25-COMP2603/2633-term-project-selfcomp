@@ -381,3 +381,5 @@ button:hover {
   color: white;
   transform: translateX(4px); /* slight slide effect */
 }
+
+.wip-message { color: #FFFFFF}
