@@ -20,6 +20,8 @@ function toTerm(date){
         output = "Fall 2025";
     } else if (date == "202404") {
         output = "Fall 2025";
+    } else if (date == "202304") {
+        output = "Fall 2023";
     }
     return output;
 }
