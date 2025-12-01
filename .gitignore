@@ -1,0 +1,8 @@
+.env
+node_modules
+*.xlsx
+**/__pycache__/
+*.pyc
+db-setup/courses.json
+Webscraper/txt.txt
+

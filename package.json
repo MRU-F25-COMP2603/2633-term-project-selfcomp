@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "mongodb": "^7.0.0",
+    "mongoose": "^8.19.1",
+    "shelljs": "^0.10.0",
+    "xlsx": "^0.18.5"
+  },
+  "name": "2633-term-project-selfcomp",
+  "version": "1.0.0",
+  "description": "SelfComp is a website meant to house course outlines for, and information/advice from alumni for Mount Royal University's COMP courses.",
+  "type": "commonjs",
+  "main": "index.js",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MRU-F25-COMP2603/2633-term-project-selfcomp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MRU-F25-COMP2603/2633-term-project-selfcomp/issues"
+  },
+  "homepage": "https://github.com/MRU-F25-COMP2603/2633-term-project-selfcomp#readme"
+}
