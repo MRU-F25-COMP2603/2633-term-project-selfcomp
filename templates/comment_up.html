@@ -26,8 +26,8 @@
     <ul>
       <!--clickable links-->
       <li><a href="/">Home</a></li>
-      <li><a href="uploads">Upload</a></li>
-      <li><a href="courses">Courses</a></li>
+      <li><a href="/uploads">Upload</a></li>
+      <li><a href="/courses">Courses</a></li>
     </ul>
   </nav>
 
@@ -43,6 +43,7 @@
         <input type="text" id="code-input" placeholder="ex. COMP1701" required>
         <textarea id="comment-input" placeholder="Type your course comment here" required></textarea>
         <button type="submit">Submit</button>
+        <a href="/" class="BTH">Back to Home</a>
     </form>
     <div id="output"></div>
 <script src="{{ url_for('static', filename='comment.js') }}"></script>
